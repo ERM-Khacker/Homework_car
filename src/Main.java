@@ -48,7 +48,7 @@ public class Main {
         System.out.println(car2);
         body.setColour("Blue");
         System.out.println(body);
-        engine.setPower(engine.getPower() * 20 / 100);
+        engine.setPower(engine.getPower() * 120 / 100);
         System.out.println(engine);
         body.setType("Pickup");
         System.out.println(body);
