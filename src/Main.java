@@ -44,18 +44,17 @@ public class Main {
         transmission.setType("V8");
         transmission.setGear("Mechanic");
         System.out.println(car2 + " " + body + " " + engine + " " + transmission);
-        car2.setPrice(car2.getPrice() + 2000);
+        car2.setPrice(car2.getPrice() + 2000); //повышаем цену на 2000
         System.out.println(car2);
-        body.setColour("Blue");
+        body.setColour("Blue");// перекрашиваем авто
         System.out.println(body);
-        engine.setPower(engine.getPower() * 120 / 100);
+        engine.setPower(engine.getPower() * 120 / 100); // повышаем мощность двигателя на 20%
         System.out.println(engine);
-        body.setType("Pickup");
+        body.setType("Pickup");// меняем тип кузова
         System.out.println(body);
         System.out.print(transmission.getGear());
-        transmission.setGear(", Automatic");
+        transmission.setGear(", Automatic"); // т.к. это тип данных стринг то меняем значение передачи через сет
         System.out.println(transmission.getGear());
-        System.out.println(car2 + " " + body + " " + engine + " " + transmission);
 
 
     }
